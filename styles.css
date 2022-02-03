@@ -1,6 +1,6 @@
 #background-image{
     height: 800px;
-    background-image: url("/images/places/ocean.jpg");
+    background-image: url("/images/icons/ocean.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -41,4 +41,43 @@
 }
 #background-content a:hover{
     background-color: rgb(255, 238, 67);
+}
+
+#highlights h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(59, 65, 64);
+}
+#highlights{
+    padding: 24px;
+    background: linear-gradient(0deg, rgb(200, 230, 221), rgb(235, 252, 237));
+}
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+.destination{
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+.destination p{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(124, 123, 123);
+    margin: 20px 0;
+   
+}
+.destination img{
+    height: 300px;
+    width: 430px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+.destination strong{
+    color: rgb(0,160,117);
 }
