@@ -1,6 +1,6 @@
 #background-image{
     height: 800px;
-    background-image: url("/images/icons/ocean.jpg");
+    background-image: url("images/icons/ocean.jpg");
     background-position: center;
     background-size: cover;
 }
